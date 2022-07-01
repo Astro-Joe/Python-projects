@@ -25,7 +25,7 @@ print("Now I'm going to ask you to add few sentences to the file.")
 print('............................................................')
 
 print("Enter/Paste your content. Ctrl-D or Ctrl-Z ( windows ) to save it.")
-
+#Allows multiple inputs of lines
 while True:
     try:
         line = input()
