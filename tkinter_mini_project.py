@@ -57,7 +57,7 @@ class MyGUI():
 
 
     def on_closing(self):
-        if messagebox.askyesno(title='Quiz?', message='Do you really want to quit?'): # askyesno() function is for prompting the user whether to close the GUI or not.
+        if messagebox.askyesno(title='Quit?', message='Do you really want to quit?'): # askyesno() function is for prompting the user whether to close the GUI or not.
             self.root.destroy() # This is to close the GUI after the message has been shown.
 
     def clear(self):
